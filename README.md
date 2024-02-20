@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+Name : DIVYA.A
+Roll no : 212222230034
+Date of experiment : 20.02.2024
 
 
 
@@ -15,19 +15,19 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
  ## Running the Emulator :
 1.	Download and install emu8086 (www.emu8086.com) It is usually installed in C:\EMU8086 subfolder in the “Windows” directory
-2.	  Run  emu8086 icon (on the desktop or in the c:\EMU8086 folder of window) It has green color 
+2.	Run  emu8086 icon (on the desktop or in the c:\EMU8086 folder of window) It has green color 
  
  
-3.		write the code for the appropriate program for ADDITION,SUBTRACTION, MULTIPLICATION,  DIVISION operations 
+3.	write the code for the appropriate program for ADDITION,SUBTRACTION, MULTIPLICATION,  DIVISION operations 
 
-4.	 Compile the program and check for the errors 
+4.	Compile the program and check for the errors 
 5.	Run (once there is no syntax error) 
 
 6.	Click OK to see/view the output of your program on the Emulator screen. 
 
 
 7.	After running the program, another menu screen will be displayed, where you have the option to “View” symbol table,
-8.	 
+8.
 
 
 ![image](https://user-images.githubusercontent.com/36288975/189273263-d65baae9-4b8f-4723-afb3-c0ffa4052b04.png)
@@ -78,52 +78,59 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 16 bit ALP 
+```
 org 100h
 mov ax,0a123h;
 mov bx,0b456h;
 add ax,bx;
 mov [1234h],ax;
 ret
-
+```
 
 ## Output  
  ![Screenshot (379)](https://github.com/Divya110205/EXPERIMENT--01-ALP-FOR-8086/assets/119404855/70a9b21c-5cbe-4bcb-abd3-dc4ec071b321)
 
 ## Subtraction   of 16 bit numbers  ALP 
+```
 org 100h
 mov ax,0d101h;
 mov bx,0c789h;
 sub ax,bx;
 mov [5678h],ax;
 ret
+```
 ## Output  
 ![Screenshot (382)](https://github.com/Divya110205/EXPERIMENT--01-ALP-FOR-8086/assets/119404855/57c83df5-c928-45dc-93d1-43e95797d9f2)
 
 ## Multiplication alp 
+```
 org 100h
 mov ax,0e112h;
 mov bx,0f131h;
 mul ax;
 mov [9101h],ax;
 ret
-
+```
  ## Output  
 ![Screenshot (383)](https://github.com/Divya110205/EXPERIMENT--01-ALP-FOR-8086/assets/119404855/ac54fbe4-52b3-44fb-ba4e-4515c09e7b4d)
 
 
 ## Division alp 
+```
 org 100h
 mov ax,0a415h;
 mov bx,0b161h;
 div ax;
 mov [1121h],ax;
 ret
+```
 
 ## Output  
 ![Screenshot (384)](https://github.com/Divya110205/EXPERIMENT--01-ALP-FOR-8086/assets/119404855/5f18155e-e356-4896-9aa2-69f371335802)
 
 
 ## Result :
+The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
  
 
 
