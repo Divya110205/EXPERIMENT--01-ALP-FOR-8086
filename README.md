@@ -77,22 +77,50 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Programs for arithmetic  operations
 
-## Addition  of 8 bit ALP 
-
+## Addition  of 16 bit ALP 
+org 100h
+mov ax,0a123h;
+mov bx,0b456h;
+add ax,bx;
+mov [1234h],ax;
+ret
 
 
 ## Output  
- 
-## Subtraction   of 8 bit numbers  ALP 
- 
+ ![Screenshot (379)](https://github.com/Divya110205/EXPERIMENT--01-ALP-FOR-8086/assets/119404855/70a9b21c-5cbe-4bcb-abd3-dc4ec071b321)
+
+## Subtraction   of 16 bit numbers  ALP 
+org 100h
+mov ax,0d101h;
+mov bx,0c789h;
+sub ax,bx;
+mov [5678h],ax;
+ret
 ## Output  
+![Screenshot (382)](https://github.com/Divya110205/EXPERIMENT--01-ALP-FOR-8086/assets/119404855/57c83df5-c928-45dc-93d1-43e95797d9f2)
+
 ## Multiplication alp 
+org 100h
+mov ax,0e112h;
+mov bx,0f131h;
+mul ax;
+mov [9101h],ax;
+ret
+
  ## Output  
+![Screenshot (383)](https://github.com/Divya110205/EXPERIMENT--01-ALP-FOR-8086/assets/119404855/ac54fbe4-52b3-44fb-ba4e-4515c09e7b4d)
 
 
 ## Division alp 
+org 100h
+mov ax,0a415h;
+mov bx,0b161h;
+div ax;
+mov [1121h],ax;
+ret
 
 ## Output  
+![Screenshot (384)](https://github.com/Divya110205/EXPERIMENT--01-ALP-FOR-8086/assets/119404855/5f18155e-e356-4896-9aa2-69f371335802)
 
 
 ## Result :
