@@ -109,9 +109,9 @@ ret
 org 100h
 mov ax,0e112h;
 mov bx,0f131h;
-mul ax;
+mul bx;
 mov [9101h],ax;
-ret
+ret  
 ```
  ## Output  
 ![Screenshot (383)](https://github.com/Divya110205/EXPERIMENT--01-ALP-FOR-8086/assets/119404855/ac54fbe4-52b3-44fb-ba4e-4515c09e7b4d)
