@@ -114,7 +114,8 @@ mov [9101h],ax;
 ret  
 ```
  ## Output  
-![Screenshot (383)](https://github.com/Divya110205/EXPERIMENT--01-ALP-FOR-8086/assets/119404855/ac54fbe4-52b3-44fb-ba4e-4515c09e7b4d)
+![Uploading Screenshot (385).png…]()
+
 
 
 ## Division alp 
