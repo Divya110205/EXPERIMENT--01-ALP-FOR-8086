@@ -82,10 +82,12 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Addition  of 16 bit ALP 
 ```
 org 100h
+
 mov ax,0a123h;
 mov bx,0b456h;
 add ax,bx;
 mov [1234h],ax;
+
 ret
 ```
 
@@ -95,10 +97,12 @@ ret
 ## Subtraction   of 16 bit numbers  ALP 
 ```
 org 100h
+
 mov ax,0d101h;
 mov bx,0c789h;
 sub ax,bx;
 mov [5678h],ax;
+
 ret
 ```
 ## Output  
@@ -107,10 +111,12 @@ ret
 ## Multiplication alp 
 ```
 org 100h
+
 mov ax,0e112h;
 mov bx,0f131h;
 mul bx;
 mov [9101h],ax;
+
 ret  
 ```
  ## Output  
@@ -121,11 +127,14 @@ ret
 ## Division alp 
 ```
 org 100h
-mov ax,0a415h;
-mov bx,0b161h;
-div ax;
+
+mov ax,0b161h;
+mov bx,0a415h;
+div bx;
 mov [1121h],ax;
+
 ret
+
 ```
 
 ## Output  
