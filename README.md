@@ -92,7 +92,8 @@ ret
 ```
 
 ## Output  
- ![Screenshot (379)](https://github.com/Divya110205/EXPERIMENT--01-ALP-FOR-8086/assets/119404855/70a9b21c-5cbe-4bcb-abd3-dc4ec071b321)
+![1 add](https://github.com/Divya110205/EXPERIMENT--01-ALP-FOR-8086/assets/119404855/6031cce0-d96e-4395-8608-8d3e57043bfc)
+
 
 ## Subtraction   of 16 bit numbers  ALP 
 ```
@@ -106,7 +107,8 @@ mov [5678h],ax;
 ret
 ```
 ## Output  
-![Screenshot (382)](https://github.com/Divya110205/EXPERIMENT--01-ALP-FOR-8086/assets/119404855/57c83df5-c928-45dc-93d1-43e95797d9f2)
+![2 sub](https://github.com/Divya110205/EXPERIMENT--01-ALP-FOR-8086/assets/119404855/192d47f9-85b1-4d51-8dd2-eb6cb9a65410)
+
 
 ## Multiplication alp 
 ```
@@ -120,7 +122,8 @@ mov [9101h],ax;
 ret  
 ```
  ## Output  
-![Uploading Screenshot (385).png…]()
+![3 mul](https://github.com/Divya110205/EXPERIMENT--01-ALP-FOR-8086/assets/119404855/1376cf45-8256-4a56-b240-f494ce5c967b)
+
 
 
 
@@ -138,7 +141,8 @@ ret
 ```
 
 ## Output  
-![Screenshot (384)](https://github.com/Divya110205/EXPERIMENT--01-ALP-FOR-8086/assets/119404855/5f18155e-e356-4896-9aa2-69f371335802)
+![4 div](https://github.com/Divya110205/EXPERIMENT--01-ALP-FOR-8086/assets/119404855/b94ce165-9d58-48c4-9891-879ccb2430f1)
+
 
 
 ## Result :
