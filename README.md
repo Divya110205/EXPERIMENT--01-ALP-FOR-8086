@@ -1,12 +1,6 @@
+#### NAME : DIVYA.A
+#### REG.NO : 212222230034
 # EX 01 : ALP FOR 8086
-```
-Name : DIVYA.A
-Roll no : 212222230034
-Date of experiment : 20.02.2024
-```
-
-
-
 
 ## Aim: 
    To Write and execute ALP on fundamental arithmetic and logical operations
