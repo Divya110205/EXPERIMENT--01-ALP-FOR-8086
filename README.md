@@ -138,7 +138,48 @@ ret
 ## Output  
 ![4 div](https://github.com/Divya110205/EXPERIMENT--01-ALP-FOR-8086/assets/119404855/b94ce165-9d58-48c4-9891-879ccb2430f1)
 
+## Programs for arithmetic  operations
 
+## AND
+```
+org 100h
+mov bx,1000h;
+and bx,1111h;
+mov [0040h+02],bx;
+ret
+```
+![image](https://github.com/Divya110205/EXPERIMENT--01-ALP-FOR-8086/assets/119404855/36e7da71-bc9b-4f6c-a8e7-8e7649a2c3f3)
+
+## OR
+```
+org 100h
+mov ax,[0040h+06];
+mov bx,1000h;
+or ax,bx;
+mov [0040h+02],ax;
+ret
+```
+![image](https://github.com/Divya110205/EXPERIMENT--01-ALP-FOR-8086/assets/119404855/99e9f673-0e07-4ec4-bbc7-a2e05721dd31)
+## NOT
+```
+org 100h
+mov bx,0040h;
+mov ax,[bx]; 
+not al;
+mov [0040h+04],ax;
+ret
+```
+![image](https://github.com/Divya110205/EXPERIMENT--01-ALP-FOR-8086/assets/119404855/14cd7db9-bd58-486b-b7d4-0d38a91a32d6)
+## XOR
+```
+org 100h
+mov bx,0040h;
+mov ax,[bx]; 
+xor ax,bx;
+mov [0040h+04],ax;
+ret
+```
+![image](https://github.com/Divya110205/EXPERIMENT--01-ALP-FOR-8086/assets/119404855/8e124a37-ef18-47f4-90fb-16cec9d02949)
 
 ## Result :
 The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
