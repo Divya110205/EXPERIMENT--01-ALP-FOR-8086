@@ -138,7 +138,7 @@ ret
 ## Output  
 ![4 div](https://github.com/Divya110205/EXPERIMENT--01-ALP-FOR-8086/assets/119404855/b94ce165-9d58-48c4-9891-879ccb2430f1)
 
-## Programs for arithmetic  operations
+## Programs for logical  operations
 
 ## AND
 ```
